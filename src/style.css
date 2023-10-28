@@ -1,0 +1,139 @@
+*{
+    /* font-family: monospace; */
+    background-color:bisque;
+    box-sizing: border-box;
+}
+#header-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% auto 0px;
+}
+
+#header-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+#header-container div h1{
+    font-family: "Black Ops One", cursive;
+    font-size: 30px;
+}
+
+
+
+/* typing body */
+
+#timer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 1rem;
+}
+
+#timer-container div{
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+
+#text-body{
+    max-width: 1000px;
+    position: fixed;
+    top: 30%;
+    left: 17%;
+}
+
+.words-wrapper{
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+}
+.word{
+    margin: 5px;
+    padding-right: 2px;
+}
+
+/* center box */
+.center-box{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:-2px -2px; */
+    position: fixed;
+    left: 40%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    row-gap: 5px -2px;
+}
+
+#refresh{
+    /* padding: 15px; */
+    margin-bottom: 0;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 1px;
+}
+
+.row-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.1rem; */
+}
+.row-3 span{
+    margin-left:1rem;
+}
+.center-box div button {
+    background: black;
+    padding: 5px;
+    margin: 0.2rem;
+    color: white;
+    border: none;
+    width: 40px;
+    border-radius: 10px;
+}
+
+
+/* footer */
+/* links */
+.footer{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 3%;
+    left: 17%;
+}
+
+
+
+.links {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+}
+
+.theme select{
+    padding: 14%;
+    font-size: 1rem;
+}
+
+
